@@ -1,24 +1,27 @@
 /*  your css code here. If applicable */
 #animal-photos{
-	border:1px solid red;
+/* 	border:1px solid red; */
 	padding:10px;
 	background:#444444;
 
 }
 
 #photo-heading{
+	color:white;
 	text-align:center;
 }
 
 #container{
-	width:100%;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	gap:15px;
-	
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	width:90%;
+	margin:auto;
+	padding-bottom: 30px; 
+	border-radius: 2px;
+	grid-gap:20px;
 }
 
 img{
-	border-radius:20px;
+	width:100%;
+	border-radius:10px;
 }
